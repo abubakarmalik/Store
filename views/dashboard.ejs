@@ -543,7 +543,7 @@
     </div>
     <script type="text/javascript">
     var trigger = [
-        ["hi","hey","hello"], 
+        ["hi","hey","hello","hy"], 
         ["how are you", "how is life", "how are things"],
         ["what are you doing", "what is going on"],
         ["how old are you"],
@@ -554,11 +554,17 @@
         ["happy", "good"],
         ["bad", "bored", "tired"],
         ["help me", "tell me story", "tell me joke"],
+        ["Where is Clothing Shop Online based?"],
+        ["I received the wrong goods, what do I do?"],
+        ["How can I pay for my order?"],
+        ["How can I check the status of my order?"],
+        ["What do I do if my order is damaged? "],
+        ["I received the wrong goods, what do I do?"],
         ["ah", "yes", "ok", "okay", "nice", "thanks", "thank you"],
         ["bye", "good bye", "goodbye", "see you later"]
     ];
     var reply = [
-        ["Hi","Hey","Hello"], 
+        ["Hi","Hey","Hello","hy"], 
         ["Fine", "Pretty well", "Fantastic"],
         ["Nothing much", "About to go to sleep", "Can you guest?", "I don't know actually"],
         ["I am 1 day old"],
@@ -569,10 +575,16 @@
         ["Have you ever felt bad?", "Glad to hear it"],
         ["Why?", "Why? You shouldn't!", "Try watching TV"],
         ["I will", "What about?"],
+        ["Our office is located in Lahore near Gulburg"],
+        ["Returns are accepted for all items within 30 days of purchase. Please visit our 'Chat support' to initiate the returns process."],
+        ["You may pay by Cash"],
+        ["You may check your email adresses to get in our touch or use chatbot for any query"],
+        ["We are so sorry to hear that your order arrived in less than pristine condition! Please let us make it right. Our customer service team will be more than happy to assist with processing a replacement order or issuing a refund. You may contact our customer service team here or through our ChatBot button below."],
+        ["Although we strive for perfection, we are human and sometimes the wrong items are shipped from our warehouses. We are so sorry for any inconvenience this has caused and our customer service team is here to help make things right. Please contact our customer service team via phone, email, or our contact us page, so that they can work to get you your goods as soon as possible."]
         ["Tell me a story", "Tell me a joke", "Tell me about yourself", "You are welcome"],
         ["Bye", "Goodbye", "See you later"]
     ];
-    var alternative = ["Haha...", "Eh..."];
+    var alternative = ["You may contact us on email address or use chatbot...", "You may use chatbot for help..."];
     document.querySelector("#input").addEventListener("keypress", function(e){
         var key = e.which || e.keyCode;
         if(key === 13){ //Enter button
